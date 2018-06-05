@@ -1,6 +1,6 @@
 import os
 
-from endpoints import Company, Address, Variant, Product, Order, Composition, Location, PurchaseOrder, PurchaseOrderLineItem
+from .endpoints import Company, Address, Variant, Product, Order, Composition, Location, PurchaseOrder, PurchaseOrderLineItem
 
 import logging
 logger = logging.getLogger(__name__)
